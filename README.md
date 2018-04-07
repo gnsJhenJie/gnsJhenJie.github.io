@@ -1,5 +1,5 @@
  # lineBot連結在這裡!!!  
-[https://line.me/R/ti/p/mAyGt-tDDT](https://line.me/R/ti/p/mAyGt-tDDT)   
+[https://linebot.gnsjhenjie.me](https://linebot.gnsjhenjie.me)   
    網頁建構中....  
       你可能要等很久很久......     
          2018/04/07   
