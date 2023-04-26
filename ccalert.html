@@ -1,0 +1,24 @@
+<cloudflare-app app="welcome-bar" data-style="prominent" style="z-index: 1;"><alert-message><alert-message-content>HIHIHI hihihi</alert-message-content></alert-message></cloudflare-app>
+<style>
+      cloudflare-app[app="welcome-bar"] {
+        background-color: #0099ff;
+        color: #ffffff;
+      }
+
+      @media (max-width: 768px) {
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:hover,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:active {
+          color: #ffffff;
+        }
+      }
+
+      @media (min-width: 768px) {
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:hover,
+        cloudflare-app[app="welcome-bar"][data-style="prominent"] .alert-cta-button:active {
+          background-color: #ffffff !important;
+          color: #0099ff !important;
+        }
+      }
+    </style>
